@@ -1,0 +1,167 @@
+<html>
+<head>
+    
+        <style>
+input.show {
+    float: left;
+    margin-top: -48px;
+    margin-left: 1299px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+ 
+        h1 {
+    text-align: center;
+    color: blue;
+}
+        
+body {
+    margin: 0;
+    background-image: url(1.jpg);
+      background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+            
+            form.f1 {
+    margin-top: 117px;
+    margin-top: 117px;
+    margin-left: 838px;
+}
+            
+tr {
+    width: 80%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 216px;
+}
+            
+td {
+    float: left;
+    width: 10%;
+    color: #0006ff;
+    font-size: 18px;
+    font-style: oblique;
+    font-weight: bold;
+}
+            
+    td.h {
+    width: 32%;
+}
+            
+    input[type="password"] {
+    box-shadow: 0 0 10px #fff, inset 0 0 10px #fff;
+    outline: none;
+    border: 2px solid #005aff;
+    width: 266px;
+    height: 30px;
+    margin-top: -6px;
+    background: transparent;
+}
+            
+    input[type="password"]:hover {
+    box-shadow: 0 0 10px #fff, inset 0 0 10px #fff;
+    outline: none;
+    border: 2px solid #00ff1f;
+    width: 266px;
+    height: 30px;
+    margin-top: -6px;
+    background: transparent;
+}            
+    
+input[type="text"] {
+    box-shadow: 0 0 10px #fff, inset 0 0 10px #fff;
+    outline: none;
+    border: 2px solid #005aff;
+    width: 266px;
+    height: 30px;
+    margin-top: -6px;
+    background: transparent;
+}
+            
+    input[type="text"]:hover {
+    box-shadow: 0 0 10px #fff, inset 0 0 10px #fff;
+    outline: none;
+    border: 2px solid #00ff1f;
+    width: 266px;
+    height: 30px;
+    margin-top: -6px;
+    background: transparent;
+}
+     
+            
+input.subm {
+    float: left;
+    margin-left: 87px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+            
+            
+ input.res {
+    float: left;
+    margin-left: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+     cursor: pointer;
+}           
+            
+    </style>
+</head>
+<body>
+<center>
+
+<form method="post" action="form.php" class="f1">
+<table>
+
+<tr>
+<td colspan="2" class="h"><h1>Login Form</h1></td>    
+</tr>    
+
+<tr>
+<td>ID</td>
+<td><input type="text" name="id"></td>  
+</tr>
+
+<tr>
+<td>Name</td>
+<td><input type="text" name="n"></td>  
+</tr> 
+    
+<tr>
+<td>Email</td>
+<td><input type="text" name="em"></td>  
+</tr> 
+ 
+    
+<tr>
+<td>Password</td>
+<td><input type="password" name="ps"></td>  
+</tr> 
+
+ 
+<tr>
+<td><input type="submit" name="sub" value="Submit" class="subm"></td>
+<td><input type="reset" name="res" value="Reset" class="res"></td>  
+</tr> 
+
+
+</table>
+</form>
+    
+<form action="showdetails.php">
+  <input type="submit" value="Show Details" class="show">  
+</form>
+
+    </center>
+</body>
+
+</html>
