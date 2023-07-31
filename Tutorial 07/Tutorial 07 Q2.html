@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title></title>
+        
+        <script>
+           
+            var avarage;
+            function getmark()
+            {
+                var total=0;
+                
+                for(var i=0;i<5;i++)
+                    {
+                        var marks=parseInt(window.prompt("Enter Marks"));
+                        total=total+marks;
+                    }
+                
+                
+                document.write("Sum is :"+total);
+                avarage=total/5;
+                document.write("<br> Average is:"+avarage);
+                
+            }
+                
+            
+            
+           
+            
+            function show()
+            {
+               
+                
+            if(avarage>30)
+                    {
+                        alert("Congrats! You passed");
+                    }
+                else
+                    {
+                        alert("Good luck try next time");
+                    }
+            }
+             
+            
+            </script>
+        
+    </head>
+    <body>
+        <script>getmark();</script>
+        <br>
+        <button onclick="show()">Grade</button>
+    </body>
+</html>
